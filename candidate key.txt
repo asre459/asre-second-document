@@ -1,0 +1,255 @@
+﻿Go To TopJavatpoint Logo
+
+Home
+DBMS
+SQL
+PL/SQL
+SQLite
+MongoDB
+Cassandra
+MySQL
+Oracle
+CouchDB
+Neo4j
+DB2M,NCNCBXZZZZZZZZ,M,M.(****(*(*poiioi"((*&{()))))){&JDSKHFIH;HFOI;DROES;RESFHNZ
+C
+Java
+Projects
+Interview Q
+
+Candidate Key in DBMS
+A candidate key is a part of a key known as Super Key (discussed in the previous section), where the super key is the super set of all those attributes that can uniquely identify a table.
+
+Here, we will be discussing about candidate key, its role, as well as its use. We will also look at some examples that will make us to better understand the concept of a candidate key.
+
+What is a Candidate Key
+A candidate key is a subset of a super key set where the key which contains no redundant attribute is none other than a Candidate Key. In order to select the candidate keys from the set of super key, we need to look at the super key set.
+
+Role of a Candidate Key
+The role of a candidate key is to identify a table row or column uniquely. Also, the value of a candidate key cannot be Null. The description of a candidate key is "no redundant attributes" and being a "minimal representation of a tuple," according to the Experts.
+
+How a Candidate key is different from a Primary Key
+Although the purpose of both candidate and the primary key is the same, that is to uniquely identify the tuples, and then also they are different from each other. It is because, in a table, we can have one or more than one candidate key, but we can create only one primary key for a table. Thus, from the number of obtained candidate keys, we can identify the appropriate primary key. However, if there is only one candidate key in a table, then it can be considered for both key constraints.
+
+Example of Candidate Key
+Let's look at the same example took while discussing Super Key to understand the working of a candidate key.
+
+We have an EMPLOYEE_DETAIL table where we have the following attributes:
+
+Emp_SSN: The SSN number is stored in this field.
+
+Emp_Id: An attribute that stores the value of the employee identification number.
+
+Emp_name: An attribute that stores the name of the employee holding the specified employee id.
+
+Emp_email: An attribute that stores the email id of the specified employees.
+
+The EMPLOYEE_DETAIL table is given below that will help you understand better:
+
+Candidate Key in DBMS
+So, from the above table, we obtained the below given super keys (discussed in the previous section):
+
+Candidate Key in DBMS
+Now, from these sets of super keys, we can conclude the candidate keys. In order to pick up the candidate keys, the best way is to analyze and form the primary keys as much as we can. So, we need to identify those sets from the super key sets that alone can identify the whole table, or we can say the other attributes of the table. Thus, the result is:
+
+Candidate Key in DBMS
+So, these are the three attributes obtained that can identify the other non-prime attributes of the table. All these are the candidate keys and from which we can pick the most appropriate attribute that can easily identify all records of the table, which will be described as the Primary key.
+
+Difference between Candidate Key and Super Key
+From the above discussions, we can have the following difference points:
+
+Super Key	Candidate Key
+It is the superset of all such attributes that can uniquely identify the table.	It is the subset or the part of the Super key.
+It is not at all compulsory that all super keys are candidate keys.	On the other hand, all candidate keys are super keys.
+The super key attribute can be NULL, which means its values can be null.	An attribute holding a candidate key can never be NULL, which means its values cannot be null.
+All the super keys formed together to bring the candidate keys.	Similarly, candidate keys are put together to create primary keys.
+The number of super keys formed is always seen more.	Here, Candidate keys are less than super keys.
+Thus, the super key is the super set, the candidate key is the subset, and the primary key is the sub-subset of the superkey.
+
+
+
+← PrevNext →
+
+Youtube For Videos Join Our Youtube Channel: Join Now
+Feedback
+Send your Feedback to feedback@javatpoint.com
+Help Others, Please Share
+facebook twitter pinterest
+
+Learn Latest Tutorials
+Splunk tutorial
+Splunk
+
+SPSS tutorial
+SPSS
+
+Swagger tutorial
+Swagger
+
+T-SQL tutorial
+Transact-SQL
+
+Tumblr tutorial
+Tumblr
+
+React tutorial
+ReactJS
+
+Regex tutorial
+Regex
+
+Reinforcement learning tutorial
+Reinforcement Learning
+
+R Programming tutorial
+R Programming
+
+RxJS tutorial
+RxJS
+
+React Native tutorial
+React Native
+
+Python Design Patterns
+Python Design Patterns
+
+Python Pillow tutorial
+Python Pillow
+
+Python Turtle tutorial
+Python Turtle
+
+Keras tutorial
+Keras
+
+
+Preparation
+Aptitude
+Aptitude
+
+Logical Reasoning
+Reasoning
+
+Verbal Ability
+Verbal Ability
+
+Interview Questions
+Interview Questions
+
+Company Interview Questions
+Company Questions
+
+
+Trending Technologies
+Artificial Intelligence
+Artificial Intelligence
+
+AWS Tutorial
+AWS
+
+Selenium tutorial
+Selenium
+
+Cloud Computing
+Cloud Computing
+
+Hadoop tutorial
+Hadoop
+
+ReactJS Tutorial
+ReactJS
+
+Data Science Tutorial
+Data Science
+
+Angular 7 Tutorial
+Angular 7
+
+Blockchain Tutorial
+Blockchain
+
+Git Tutorial
+Git
+
+Machine Learning Tutorial
+Machine Learning
+
+DevOps Tutorial
+DevOps
+
+
+B.Tech / MCA
+DBMS tutorial
+DBMS
+
+Data Structures tutorial
+Data Structures
+
+DAA tutorial
+DAA
+
+Operating System
+Operating System
+
+Computer Network tutorial
+Computer Network
+
+Compiler Design tutorial
+Compiler Design
+
+Computer Organization and Architecture
+Computer Organization
+
+Discrete Mathematics Tutorial
+Discrete Mathematics
+
+Ethical Hacking
+Ethical Hacking
+
+Computer Graphics Tutorial
+Computer Graphics
+
+Software Engineering 
+Software Engineering
+
+html tutorial
+Web Technology
+
+Cyber Security tutorial
+Cyber Security
+
+Automata Tutorial
+Automata
+
+C Language tutorial
+C Programming
+
+C++ tutorial
+C++
+
+Java tutorial
+Java
+
+.Net Framework tutorial
+.Net
+
+Python tutorial
+Python
+
+List of Programs
+Programs
+
+Control Systems tutorial
+Control System
+
+Data Mining Tutorial
+Data Mining
+
+Data Warehouse Tutorial
+Data Warehouse
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> html table</title>
+	<style type="text/css">
+		table{ 
+		width:100% }
+		th{
+			text-align: left;
+			font-size: 30px;
+			background-color: blue;
+		}
+		table,tr,th,td{
+			border: 1px solid black;
+			background-color: green;
+
+			border-collapse: collapse;
+		}
+		table tr:nth-child(even)
+		{
+			background-color: gray ;
+		}
+		
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th style="background-color:blue;"> name</th>
+			<th>Grade</th>
+			<th style="background-color:yellow;">Subject</th>
+			<th>Result</th>
+		</tr>
+		<tr>
+			<td>Abebe</td>
+			<td>9th</td>
+			<td>Biology</td>
+			<td>95</td>
+		</tr>
+			<tr>
+			<td>Abebe</td>
+			<td>9th</td>
+			<td>Biology</td>
+			<td>90</td>
+		</tr>	<tr>
+			<td>Alemayehu</td>
+			<td>9th</td>
+			<td>Biology</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Alex</td>
+			<td style="background-color:red;">8th</td>
+			<td>Chemistry</td>
+			<td>79</td>
+		</tr>
+	</table>
+
+</body>
+</html>

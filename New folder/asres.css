@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+
+}
+#container {
+    background-color:brown;
+    width: 83%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+    align-content: space-between;
+    align-content: flex-start;
+    align-self: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-content: flex-end;
+
+
+}
+#container div {width: 100px;
+    height: 200px;
+
+}

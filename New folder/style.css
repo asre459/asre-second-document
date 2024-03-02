@@ -1,0 +1,22 @@
+img{border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+body{background-color:white;
+ 
+
+}
+hr{
+    border-color:black;
+    border-width: 5px;
+    border-style: none;
+    width: 50%;
+    border-top-style: dotted;
+
+}
+h1{
+    color: chartreuse;
+}
+h3{
+    color: chartreuse;
+}
